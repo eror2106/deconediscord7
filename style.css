@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1abc9c;
+  background-position: cover;
+  text-align: center;
+
+}
+
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: aliceblue;
+  border: none;
+  margin-top: 5%;
+  margin-left: 35%;
+  width: 30%;
+}
+
+input {
+  padding: 10px;
+  width: 90%;
+  margin-left: 5%;
+
+}
+
+#choix {
+  margin-left: 40%;
+
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+
+.check {
+  margin-top: 1%;
+  margin-right: 5%;
+}
+
+.check>p {
+  font-size: 20px;
+}
+
+.text_a_traiter {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 1.8em;
+}
+
+h1 {
+  background-color: aliceblue;
+}
+
+@media screen and (max-width: 598px) {
+  input {
+    width: 100%;
+    margin-left: 0%;
+
+  }
+
+  #choix {
+    margin-left: 8%;
+  }
+
+}
